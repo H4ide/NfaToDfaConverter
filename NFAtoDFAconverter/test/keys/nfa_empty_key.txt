@@ -1,0 +1,13 @@
+DFA States:
+q0
+
+DFA Alphabet:
+["a"]
+
+DFA Start State:
+q0
+
+DFA Final States:
+q0
+
+DFA Transitions:

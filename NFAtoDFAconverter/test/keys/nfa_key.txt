@@ -1,0 +1,15 @@
+DFA States:
+q3
+
+DFA Alphabet:
+["aa","abcd","a","b","bbbb"]
+
+DFA Start State:
+q3
+
+DFA Final States:
+q3
+
+DFA Transitions:
+q3 -- a --> q3
+q3 -- bbbb --> q3

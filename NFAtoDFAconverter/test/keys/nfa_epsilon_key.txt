@@ -1,0 +1,19 @@
+DFA States:
+q2, q1, q0_q1
+
+DFA Alphabet:
+["a","b"]
+
+DFA Start State:
+q0_q1
+
+DFA Final States:
+q2
+
+DFA Transitions:
+q0_q1 -- a --> q1
+q0_q1 -- b --> q2
+q1 -- a --> q1
+q1 -- b --> q2
+q2 -- a --> q2
+q2 -- b --> q2
