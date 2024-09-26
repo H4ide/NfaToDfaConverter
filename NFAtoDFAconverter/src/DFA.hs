@@ -17,7 +17,7 @@ writeDfaToFile inputFileName dfa = do
     let outputFileName = outputDir </> (baseName ++ "_" ++ formattedTime <.> "txt")
     
     writeFile outputFileName (dfaToString dfa)
-    putStrLn $ "Output written to: " ++ outputFileName
+    putStrLn $ "Saved as: " ++ outputFileName
 
 dfaToFormattedString :: (String -> String) -> DFA -> String
 dfaToFormattedString output (states, alphabet, startState, finalStates, transitions) =
